@@ -17,9 +17,5 @@ public class Result {
         System.out.println(kasia);
         System.out.println("Suma czasów: " + suma.addTime(tomek.time, kasia.time) + "min");
 
-        //dlaczego nie działa funkcja: tomek.firstName (pola String) ?
-        // np  System.out.println(tomek.firstName);
-        // a działa tomek.age i tomek.time??
-
     }
 }

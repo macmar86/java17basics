@@ -2,7 +2,7 @@ package main.org.maciek.section2;
 
 import java.util.Arrays;
 
-public class Ex2345 {
+public class Ex234 {
 
     public static void main(String[] args) {
 
@@ -22,7 +22,7 @@ public class Ex2345 {
 //exercise 3
         //3. Create an array and initialize it with numbers, 1-10.
 
-        int[] num10 = {1,2,3,4,5,6,7,8,9,10};
+        int[] num10 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         System.out.println(num10.length);
 
 //exercise 4
@@ -30,14 +30,10 @@ public class Ex2345 {
         //4.1.How would you access the value in the bottom right square with
         //Java code?
 
-        String[][] oix = {{"o","x","x"}, {"x","o","o"}, {"x","o","o"}};
+        String[][] oix = {{"o", "x", "x"}, {"x", "o", "o"}, {"x", "o", "o"}};
         System.out.println(Arrays.deepToString(oix));
         System.out.println(oix[2][2]);
 
-//exercise 5
-        //5. Write a method that allows you to pass any number of Strings as parameter inputs without
-        //using an array.
-            //odp. ???
-}
+    }
 
 }
